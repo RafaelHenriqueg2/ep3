@@ -61,7 +61,7 @@ h2 {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
 }
-
+<a href="google.com">
 .product {
   box-shadow: 4px 4px 4px 4px black;
   padding: 20px;
@@ -70,7 +70,7 @@ h2 {
   transition: transform 0.3s ease;
   background-color: rgb(197, 195, 195);
 }
-
+</a>
 .product:hover {
   transform: translateY(-5px);
 }
