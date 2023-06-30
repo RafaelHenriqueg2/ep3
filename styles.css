@@ -1,109 +1,109 @@
-/* Reset CSS */
+/* styles.css */
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, sans-serif;
-    background-color: white;
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  .header-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header h1 {
-    font-size: 24px;
-  }
-  
-  nav ul {
-    list-style-type: none;
-
-  }
-  
-  nav ul li {
-    display: inline;
-    margin-right: 10px;
-    border-bottom: 1px solid wheat;
-    transition: 1s;
-  }
-  
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  h2 {
-    margin-bottom: 20px;
-  }
-  
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-  }
-  
-  .product {
-    background-color: darkgrey;
-    padding: 20px;
-    border-radius: 5px;
-    text-align: center;
-    transition: transform 0.3s ease;
-  }
-  
-  .product:hover {
-    transform: translateY(-5px);
-  }
-  
-  .product img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-  }
-  
-  .product h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 18px;
-  }
-  
-  .product p.description {
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-  
-  .product p.price {
-    margin: 0;
-    font-size: 18px;
-  }
-
-  main img {
-    height: 300px;
-    width: 400px;
-    border-radius: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.fn1{
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgba(246, 0, 0, 0);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: rgb(0, 0, 0);
+  color: greenyellow;
+  padding: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: larger;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  border-bottom: 1px solid rgb(212, 255, 0);
+}
+
+nav ul li a {
+  color: greenyellow;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.product {
+  box-shadow: 4px 4px 4px 4px black;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  background-color: rgb(197, 195, 195);
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.product p.description {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.product p.price {
+  margin: 0;
+  font-size: 18px;
+}
+
+main img {
+  height: 300px;
+  width: 400px;
+  border-radius: 15px;
+}
+
+.fn1 {
   height: 1rem;
 }
 
@@ -111,3 +111,37 @@
   height: 50px;
   margin-right: 10px;
 }
+
+body {
+  display: grid;
+  grid-template-areas:
+    "cab cab cab"
+    "sec pri pri"
+    "rod rod rod";
+  grid-gap: 5px;
+  grid-template-columns: 20% auto auto;
+  grid-template-rows: auto 1000px auto;
+}
+
+header {
+  grid-area: cab;
+}
+
+aside {
+  grid-area: sec;
+}
+
+main {
+  grid-area: pri;
+}
+
+footer {
+  grid-area: rod;
+}
+
+main{
+  
+ text-align: justify;
+
+}
+
