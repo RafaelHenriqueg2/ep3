@@ -115,6 +115,7 @@ main img {
 
 footer {
   grid-area: rod;
+  background-color: black;
 }
 
 body {
@@ -155,7 +156,6 @@ a:link {
   width: 220px;
 }
 
-
 .description {
   color: black;
 }
@@ -175,6 +175,7 @@ a:link {
 .color {
   width: 1200px;
   margin: auto;
+
 }
 
 .sec {
@@ -200,7 +201,6 @@ a:link {
   text-align: justify;
 }
 
-
 .price-container {
   display: flex;
   align-items: center;
@@ -213,6 +213,7 @@ a:link {
   font-weight: bold;
   color: white;
   margin-left: 10px;
+
 }
 
 .buy-icon {
@@ -224,7 +225,6 @@ a:link {
   margin-top: 20px;
 }
 
-
 .buy-button {
   display: inline-block;
   padding: 10px 20px;
@@ -233,6 +233,7 @@ a:link {
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
+  margin-left: 40px;
 }
 
 .buy-button:hover {
@@ -240,13 +241,13 @@ a:link {
   transition: 2s;
 }
 
-.abc{
+.abc {
   background-color: black;
 }
-.aa{
+
+.aa {
   color: greenyellow;
 }
-
 
 h1 {
   margin-left: 20px;
@@ -265,3 +266,50 @@ h1 {
   width: 500px;
   height: auto;
 }
+
+
+.container h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container p {
+  color: white;
+}
+
+.container a {
+  color: white;
+  text-decoration: none;
+}
+
+.container a:hover {
+  color: greenyellow;
+}
+
+.container .product-grid {
+  margin-top: 20px;
+}
+
+.container .product p.price {
+  color: white;
+}
+
+.container .product:hover {
+  background-color: rgb(212, 255, 0);
+  color: black;
+  transform: translateY(-5px);
+  transition: 1s;
+}
+
+.container .product:hover a {
+  color: black;
+}
+
+.container .product:hover .description {
+  color: black;
+}
+
+.container .product:hover .price {
+  color: black;
+}
+
