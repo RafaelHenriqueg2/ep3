@@ -75,7 +75,6 @@ h2 {
   text-align: center;
   transition: transform 0.3s ease;
   background-color: rgb(197, 195, 195);
-  align-self: start;
   text-decoration: none;
 }
 
@@ -88,7 +87,7 @@ h2 {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
-  align-items: flex-start;
+ 
 }
 
 .product h3 {
