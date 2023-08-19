@@ -20,6 +20,7 @@ header {
   background-color: rgb(0, 0, 0);
   color: greenyellow;
   padding: 20px;
+  text-align: center;
 }
 
 .header-container {
@@ -31,7 +32,7 @@ header {
   margin-right: auto;
   width: 80px;
   text-decoration: none;
-  color: greenyellow;
+  color: yellowgreen;
 }
 
 header h1 {
@@ -87,7 +88,7 @@ h2 {
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
- 
+
 }
 
 .product h3 {
@@ -311,4 +312,10 @@ h1 {
 .container .product:hover .price {
   color: black;
 }
+
+.aaa {
+
+  color: yellowgreen;
+  position:absolute; 
+} 
 

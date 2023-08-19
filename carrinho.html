@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <style>
+        .corpo {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+          
+        }
+
+        .cabeca {
+            background-color: #000000;
+            color: yellowgreen;
+            text-align: center;
+            padding: 10px;
+          
+        }
+
+        .tamanho {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .cart-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .cart-item img {
+            max-width: 100px;
+            margin-right: 10px;
+        }
+
+        .cart-item:last-child {
+            border-bottom: none;
+        }
+
+        .cart-total {
+            text-align: right;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        button {
+            background-color:green;
+            color: rgb(0, 0, 0);
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #9fffa4;
+        }
+
+        .o {
+            text-decoration: none;
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body class="corpo">
+    <header class="cabeca">
+        <a href="index.html" target="_blank" class="o">
+            <h1> Carrinho de Compras</h1>
+        </a>
+    </header>
+    <div class="tamanho">
+        <div class="cart-item">
+            <img src="imagem/microondas.png" alt="Produto 1">
+            <span>micro-ondas</span>
+            <span>R$ 799,00</span>
+        </div>
+        <div class="cart-item">
+            <img src="imagem/liquidificador.png" alt="Produto 2">
+            <span>Liquidificador</span>
+            <span>R$ 149,99</span>
+        </div>
+        <div class="cart-item">
+            <img src="imagem/geladeira.png" alt="Produto 3">
+            <span>Geladeira</span>
+            <span>R$ 5999,99</span>
+        </div>
+        <div class="cart-total">
+            Total: R$ 6949,97
+        </div>
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">
+            <button>Finalizar Compra</button>
+        </a>
+    </div>
+</body>
+</html>
