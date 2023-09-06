@@ -26,6 +26,9 @@ header {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+  
+
 }
 
 .logo {
@@ -121,12 +124,12 @@ footer {
 body {
   display: grid;
   grid-template-areas:
-    "cab cab cab"
-    "sec pri pri"
-    "rod rod rod";
+    "cab cab"
+    "sec pri"
+    "rod rod";
   grid-gap: 5px;
-  grid-template-columns: 20% auto auto;
-  grid-template-rows: auto 1000px auto;
+  grid-template-columns: 20% auto;
+  grid-template-rows: 300px auto auto;
 }
 
 header {
@@ -152,7 +155,7 @@ a:link {
 
 .des {
   margin-left: auto;
-  margin-right: 50px;
+  margin-right: 10px;
   width: 220px;
 }
 
@@ -316,6 +319,5 @@ h1 {
 .aaa {
 
   color: yellowgreen;
-  position:absolute; 
-} 
-
+  position: absolute;
+}
